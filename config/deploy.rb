@@ -4,6 +4,9 @@ lock '3.1.0'
 # require Slack config
 require './config/slack'
 
+# require local deploy file
+require './config/deploy-local'
+
 ############################################
 # Setup WordPress
 ############################################

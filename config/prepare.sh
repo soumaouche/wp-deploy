@@ -5,3 +5,7 @@ git submodule add -b 4.0-branch https://github.com/WordPress/WordPress.git wordp
 git remote rm origin
 git add -A
 git commit -m "Inital commit"
+
+# generate deploy-local.rb 
+cp ./config/deploy-local.rb.dist ./config/deploy-local.rb
+

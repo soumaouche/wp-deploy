@@ -1,0 +1,6 @@
+############################################
+# Setup WordPress
+############################################
+
+# use this to define your custom local url for the project
+# set :wp_localurl, "http://wpdeploy" # Your local environment URL

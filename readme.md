@@ -73,6 +73,9 @@ set :wp_user, "aaronthomas" # The admin username
 set :wp_email, "aaron@example.com" # The admin email address
 set :wp_sitename, "WP Deploy" # The site title
 set :wp_localurl, "http://localhost" # Your local environment URL
+
+If your dev environment has a specific local url use deploy-local.rb. Add 
+set :wp_localurl, "http://localhost" # Your local environment URL
 ```
 
 These are the settings used for your inital installation of WordPress. You also need to define your git repository in the same file:
