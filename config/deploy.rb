@@ -4,9 +4,6 @@ lock '3.1.0'
 # require Slack config
 require './config/slack'
 
-# require local deploy file
-require './config/deploy-local'
-
 ############################################
 # Setup WordPress
 ############################################
@@ -15,6 +12,9 @@ set :wp_user, "yourname" # The admin username
 set :wp_email, "yourname@example.com" # The admin email address
 set :wp_sitename, "WP Deploy" # The site title
 set :wp_localurl, "http://wpdeploy" # Your local environment URL
+
+# require local deploy file
+require './config/deploy-local'
 
 ############################################
 # Setup project
